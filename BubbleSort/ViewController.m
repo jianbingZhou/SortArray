@@ -16,9 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //这是常用的两种排序  我认为第一种就是所谓的选择排序 第二种是冒泡排序
+    
     //oc
     //选择排序
-    
     NSMutableArray *sortArray = [NSMutableArray arrayWithObjects:@1,@4,@2,@9,@6,@0,nil];
     /*
     for (int i = 0; i < sortArray.count - 1; i ++) {
